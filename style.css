@@ -219,3 +219,21 @@ nav ul a:hover {
     height: 130px;
 }
 
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding-top: 100px;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    nav {
+        padding: 1rem;
+    }
+}
